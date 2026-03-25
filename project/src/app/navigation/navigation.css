@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 /* Active link (Angular adds this class automatically if configured) */
-nav a.active {
+nav a.active-link {
   background: #16a34a;
   color: white;
   font-weight: bold;
