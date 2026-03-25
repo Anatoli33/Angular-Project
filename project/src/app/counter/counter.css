@@ -1,4 +1,7 @@
 .counter-container {
+  margin: 20px auto;
+}
+.counter-container {
   padding: 20px;
   border: 2px solid #3b82f6;
   border-radius: 12px;
