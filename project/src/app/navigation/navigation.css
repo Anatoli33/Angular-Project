@@ -1,0 +1,48 @@
+/* Global reset (optional but recommended) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header title */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b; /* dark blue */
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* Navbar container */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #334155; /* slightly lighter */
+  padding: 15px 0;
+}
+
+/* Links */
+nav a {
+  text-decoration: none;
+  color: #e2e8f0;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+  background: #22c55e; /* green */
+  color: white;
+}
+
+/* Active link (Angular adds this class automatically if configured) */
+nav a.active {
+  background: #16a34a;
+  color: white;
+  font-weight: bold;
+}

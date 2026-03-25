@@ -1,12 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Counter } from './counter/counter.js';
-import { Countdown } from './countdown/countdown.js';
+import { Navigation } from './navigation/navigation.js';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Counter, Countdown],
+  imports: [RouterOutlet, Navigation],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
