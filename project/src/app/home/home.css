@@ -1,3 +1,35 @@
-*{
-    text-align: center;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #ecfdf5, #ffffff);
+  gap: 40px;
 }
+
+/* Left side */
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #064e3b;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
+}
+
