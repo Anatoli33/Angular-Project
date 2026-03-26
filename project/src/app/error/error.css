@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #022c22;
+  background: #f5fefa;
   text-align: center;
 }
 
@@ -16,11 +16,11 @@
 
 .not-found h2 {
   margin: 10px 0;
-  color: #d1fae5;
+  color: #064e3b;
 }
 
 .not-found p {
-  color: #86efac;
+  color: #064e3b;
   margin-bottom: 20px;
 }
 
