@@ -26,10 +26,41 @@
   line-height: 1.6;
 }
 
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
 
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
 
+.primary {
+  background: #22c55e;
+  color: white;
+}
+
+.primary:hover {
+  background: #16a34a;
+}
+
+.secondary {
+  border: 2px solid #22c55e;
+  color: #22c55e;
+}
+
+.secondary:hover {
+  background: #22c55e;
+  color: white;
+}
+
+/* Right side image */
 .hero-image img {
   width: 400px;
   max-width: 100%;
 }
-
