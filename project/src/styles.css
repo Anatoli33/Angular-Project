@@ -3,3 +3,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+body{
+      background: linear-gradient(135deg, #ecfdf5, #ffffff);
+}

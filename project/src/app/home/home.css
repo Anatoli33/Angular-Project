@@ -41,21 +41,21 @@
 }
 
 .primary {
-  background: #22c55e;
+  background: #16a34a;
   color: white;
 }
 
 .primary:hover {
-  background: #16a34a;
+  background: #107f39;
 }
 
 .secondary {
-  border: 2px solid #22c55e;
-  color: #22c55e;
+  border: 2px solid #16a34a;
+  color: #16a34a;
 }
 
 .secondary:hover {
-  background: #22c55e;
+  background: #16a34a;
   color: white;
 }
 
